@@ -1,0 +1,13 @@
+
+  body{
+    background-color: #e53444;
+    color : white;
+    font-family: calibri;
+  }
+#image
+{
+  max-width : 100%;
+  height : auto;
+  display: block;
+  margin: auto;
+}
