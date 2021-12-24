@@ -1,0 +1,70 @@
+   <!DOCTYPE html>
+<html>
+
+<header>
+<h1 id = "title">Tesla model purchase</h1> 
+</header>
+  
+<body>
+<p id = "description">Fill the details to complete your order</p>
+<form id = "survey-form">
+  
+  <div class="input-headings">
+  <label for = "name" id = "name-label">Name: </label>
+  <input id = "name" type = "text" name = "name" placeholder = "Your name" class="form-inputs" required ></input>
+<br>
+<br>
+
+<label for = "email" id = "email-label">Email: </label>
+<input id = "email" type = "email" name = "email" placeholder = "Your email" class="form-inputs" required></input>
+<br>
+<br>
+
+<label for = "number" id = "number-label"> Age: </label>
+<input id = "number" type = "number" name = "number" placeholder = "Your age" min = "18" max = "100" class="form-inputs" required></input>
+<br>
+<br>
+<label for = "dropdown" id = "model">Select your model: </label>
+<select id = "dropdown" class="form-inputs">
+  <option value = "Model_S">Model S</option>
+  <option value = "Model_3">Model 3</option>
+  <option value = "Model_X">Model X</option>  
+</select>
+<br>
+<br>
+<label for = "model_color" id = "model_color"><b>Model     Color: </b></label>
+<br>
+ <input id = "model_color" type = "radio" id = "black"    name = "color" value = "black">
+ <label for = "model_color" id =                        "model_color">Black</label>
+<br>
+ 
+<input id = "model_color" type = "radio" id = "orange" name = "color" value = "orange">
+<label for = "model_color" id = "model_color">Orange</label>
+<br>
+
+<input id = "model_color" type = "radio" id = "gold" name = "color" value = "gold">
+<label for = "model_color" id = "model_color">Gold</label>
+<br>
+<br>
+<label for = "features"><b> Additional features: </b></label>
+<br>
+<input = "checkbox" type = "checkbox" name = "features" value = "autopilot">
+<label for = "checkbox">For self driving-$10000</label>
+<br>
+<input = "checkbox" type = "checkbox" name = "features" value = "dual_motor">
+<label for = "checkbox">Dual Motor - $9000</label>
+<br>
+<input = "checkbox" type = "checkbox" name = "features" value = "battery">
+<label for = "checkbox">Enhanced battery - $7000 </label>
+<br>
+<br>
+<label id = "textarea">Additional Comments</label> 
+<br>
+<textarea id = "textarea" name = "instruction" rows = "5" cols = "40"></textarea>
+<br>
+<input id = "submit" type = "submit" value = "Place Order" class="submit-button">
+  </div>
+</form>
+
+</body>
+</html>
